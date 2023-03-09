@@ -174,6 +174,46 @@
     </div>
   </section>
 
+  <!-- Forms -->
+  <div class="login-form-container" id="finance">
+    <form action="" method="">
+      <h3>Let Us Know</h3><a class="close" href="#" onclick="closelogin()">&times;</a>
+      <input name="cname" type="text" placeholder="Company Name" class="box" required pattern="^[A-Za-z ]+$">
+      <input name="email" type="email" placeholder="Email" class="box" required
+        pattern="^[a-zA-Z0-9_]+@[a-zA-Z]+[.]+com$">
+      <input name="pnum" type="tel" placeholder="Phone Number" class="box" required>
+      <input name="address" type="text" placeholder="Address" class="box" required>
+      <input name="city" type="text" placeholder="City" class="box" required pattern="^[A-Za-z ]+$">
+      <input name="state" type="text" placeholder="State" class="box" required pattern="^[A-Za-z ]+$">
+      <input type="hidden" name="date" value="getdate();">
+      <textarea name="message" class="box" placeholder="Message"></textarea>
+      <input name="finance" type="submit" value="Submit" class="btn-form">
+      <p>What is this for ? <a href="#about-finance">Click here to know why</a> </p>
+    </form>
+  </div>
+
+  <div class="login-form-container" id="done-submitting">
+    <form>
+      <h3>Thank you!</h3><a class="close" href="#" onclick="closelogin()">&times;</a>
+      <p>Your request has been received and is currently being processed. Please be
+        patient while we review your information and respond to you as soon as possible.
+      </p>
+    </form>
+  </div>
+
+  <div class="login-form-container" id="about-finance">
+    <form>
+      <h3>Financing</h3><a class="close" href="#" onclick="closelogin()">&times;</a>
+      <p>Dear valued customer, we are thrilled to offer you the opportunity to receive a discount on your next purchase.
+        By submitting your information through our form, you can receive up to 10% off on your orders, making your
+        shopping experience more cost-effective.
+        This is a limited-time offer, so don't miss your chance to save! In addition, you'll also be kept informed of
+        exclusive offers, promotions, and updates from our company.
+        Submit the form today to take advantage of these amazing benefits!</p>
+      <p>Do you understand us? <a href="#finance">Fill the form now</a> </p>
+    </form>
+  </div>
+
 
     <section class="section featured-car" id="featured-car">
         <div class="container">
