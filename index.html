@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WheelzHub</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WheelzHub</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
-
-    <link rel="stylesheet" href="css/landing.css">
-    <link rel="stylesheet" href="css/featured.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/forms.css">
-    
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" href="css/featured.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/forms.css">
 </head>
+
 <body>
   <header class="header" id="header">
     <nav>
       <a href="index.php" class="logo">WheelzHub</a>
-      <img id="mobMenu" width='10' height='10' src="icons/mobmenu.svg">
-      <img id="mobCar" width='10' height='10' src="icons/mobcart.svg" onclick="viewCart()">
+      <img id="mobMenu" width="10" height="10" src="icons/mobmenu.svg">
+      <img id="mobCar" width="10" height="10" src="icons/mobcart.svg" onclick="viewCart()">
       <div class="menu">
         <ul>
           <li><a href="#finance" onclick="disable()">Financing</a></li>
@@ -35,12 +36,9 @@
 
     <!-- Cart-->
     <div class="cart-holder">
-      <h2 class="cart-tit">
-        Your cart
-      </h2>
+      <h2 class="cart-tit">Your cart</h2>
       <!-- Content-->
       <div class="card-content">
-
       </div>
       <!-- Total -->
       <div class="total">
@@ -132,7 +130,7 @@
           <li>
             <div class="feature-card">
               <div class="card-icon">
-                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+                <img width="10" height="10" src="icons/check.svg" aria-hidden="true">
               </div>
               <span class="span">
                 A wide selection of vehicles for sale and rent.
@@ -142,7 +140,7 @@
           <li>
             <div class="feature-card">
               <div class="card-icon">
-                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+                <img width="10" height="10" src="icons/check.svg" aria-hidden="true">
               </div>
               <span class="span">
                 Financing options for customers who need help purchasing a car.
@@ -152,7 +150,7 @@
           <li>
             <div class="feature-card">
               <div class="card-icon">
-                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+                <img width="10" height="10" src="icons/check.svg" aria-hidden="true">
               </div>
               <span class="span">
                 Affordable prices for both sales and rentals.
@@ -162,7 +160,7 @@
           <li>
             <div class="feature-card">
               <div class="card-icon">
-                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+                <img width="10" height="10" src="icons/check.svg" aria-hidden="true">
               </div>
               <span class="span">
                 Explore our wide range of cars for sale or rent.
@@ -214,85 +212,74 @@
     </form>
   </div>
 
+  <section class="section featured-car" id="featured-car">
+    <div class="container">
+      <div class="title-wrapper">
+        <h2 class="h2 section-title">Featured cars</h2>
+      </div>
+      <ul class="featured-car-list">
+        <!-- Contents will be here-->
+      </ul>
+    </div>
+  </section>
 
-    <section class="section featured-car" id="featured-car">
-        <div class="container">
+  <!-- featured car viewer-->
 
-          <div class="title-wrapper">
-            <h2 class="h2 section-title">Featured cars</h2>
-          </div>
-
-          <ul class="featured-car-list">
-            <!-- Contents will be here-->
-          </ul>
-
-        </div>
-      </section>
-
-
-      <!-- featured car viewer-->
-
-    <div class="login-form-container" id="viewer">
+  <div class="login-form-container" id="viewer">
     <div class="form">
       <h3>Car Details</h3><a class="close" href="#featured-car" id="close-featured">&times;</a>
       <!-- Car Viewer-->
     </div>
-    </div>
+  </div>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="row" id="about-us">
-          <div class="footer-col">
-            <h4>About us</h4>
-            <ul>
-              <li style="color:darkgray">WheelzHub is a leading digital marketplace and solutions provider for the automotive industrythat connects car shoppers with sellers. Launched in 2023 and headquartered in Bahir Dar, Ethiopia.</li> 
-              <div class="footer-col">
-        
-                <div class="social-links">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row" id="about-us">
+        <div class="footer-col">
+          <h4>About us</h4>
+          <ul>
+            <li style="color:darkgray">WheelzHub is a leading digital marketplace and solutions provider for the
+              automotive industrythat connects car shoppers with sellers. Launched in 2023 and headquartered in Bahir
+              Dar, Ethiopia.</li>
+            <div class="footer-col">
+
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
               </div>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Quick links</h4>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Terms and conditions</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Contact us</h4>
-            <ul>
-              <li><a href="https://www.google.com/maps/place/Bahir+Dar,+Amhara,+Ethiopia/" target="_blank">Bahir Dar, Amhara, Ethiopia</a></li>
-              <li><a href="tel:+251918764531" target="_blank">+251918764531</a></li>
-              <li><a href="mailto:sales@wheelzhub.com" target="_blank">sales@wheelzhub.com</a></li>
-            </ul>
-          </div>
-          
-          </div>
+            </div>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact us</h4>
+          <ul>
+            <li><a href="https://www.google.com/maps/place/Bahir+Dar,+Amhara,+Ethiopia/" target="_blank">Bahir Dar,
+                Amhara, Ethiopia</a></li>
+            <li><a href="tel:+251918764531" target="_blank">+251918764531</a></li>
+            <li><a href="mailto:sales@wheelzhub.com" target="_blank">sales@wheelzhub.com</a></li>
+          </ul>
+        </div>
+
       </div>
-   </footer>
+    </div>
+  </footer>
 
+  <button id="myBtn"><img src="icons/top.svg" class="cart-remove" width="15" height="25"></button>
 
-
-
-   <button id="myBtn"><img src="icons/top.svg" class="cart-remove" width="15" height="25"></button>
-
-
-
-
-
-
-    <script src="js/mainFetch.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/fetch.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/mainFetch.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/fetch.js"></script>
 </body>
+
 </html>
