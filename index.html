@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WheelzHub</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
+
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/featured.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/forms.css">
+    
+</head>
+<body>
+  <header class="header" id="header">
+    <nav>
+      <a href="index.php" class="logo">WheelzHub</a>
+      <img id="mobMenu" width='10' height='10' src="icons/mobmenu.svg">
+      <img id="mobCar" width='10' height='10' src="icons/mobcart.svg" onclick="viewCart()">
+      <div class="menu">
+        <ul>
+          <li><a href="#finance" onclick="disable()">Financing</a></li>
+          <li><a href="#section feature">our solutions</a></li>
+          <li><a href="#featured-car">featured cars</a></li>
+          <li><a href="#about-us">about us</a></li>
+        </ul>
+        <a href="#" class="btnn" id="btnn" onclick="viewCart()">Check Out</a>
+      </div>
+    </nav>
+
+    <!-- Cart-->
+    <div class="cart-holder">
+      <h2 class="cart-tit">
+        Your cart
+      </h2>
+      <!-- Content-->
+      <div class="card-content">
+
+      </div>
+      <!-- Total -->
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">0 ETB</div>
+      </div>
+      <a href="#checkout" onclick="checkout()"><button type="button" class="btn-buy">Check Out</button></a>
+      <a class="close" href="#featured-car" id="close-cart">&times;</a>
+    </div>
+  </header>
+
+  <section class="section service" style="background-image: url(./images/Main-bannerr.jpg);">
+    <div class="container">
+
+      <h2 class="h2 section-title">
+        "From sales to rental, we've got you covered."
+      </h2>
+
+      <ul class="grid-list">
+        <li>
+          <div class="service-card">
+            <div class="card-icon">
+              <img src="icons/call.svg" aria-hidden="true" width='30' height='30'>
+            </div>
+            <h3 class="h4 card-title">24/7 Support</h3>
+            <p class="card-text">
+              Contact us anytime for fast support - we're here to answer questions, resolve issues, and provide
+              assistance day or night, weekdays or weekends.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <div class="card-icon">
+              <img src="icons/secure.svg" aria-hidden="true" width='30' height='30'>
+            </div>
+            <h3 class="h4 card-title">Secure Payments</h3>
+            <p class="card-text">
+              Our top priority is protecting your financial data. With our secure payment system and advanced
+              encryption, shop online with confidence and safety.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <div class="card-icon">
+              <img src="icons/daily.svg" aria-hidden="true" width='30' height='30'>
+            </div>
+            <h3 class="h4 card-title">Daily Updates</h3>
+            <p class="card-text">
+              Our inventory is regularly updated with the latest
+              cars for sale or rental. Find the perfect vehicle for your needs with ease, and enjoy riding your vehicle
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <div class="card-icon">
+              <img src="icons/market.svg" aria-hidden="true" width='30' height='30'>
+            </div>
+            <h3 class="h4 card-title">Market Research</h3>
+            <p class="card-text">
+              Get valuable insights on car buying or renting.
+              Stay informed with our market research and make the best choice with our in-depth analysis.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section feature" aria-labelledby="feature-label" id="section feature">
+    <div class="container">
+
+      <figure class="feature-banner">
+        <img src="./images/last.png" width="508" height="450" alt="feature banner" class="w-1000">
+      </figure>
+
+      <div class="feature-content">
+        <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+        <p class="section-text">
+          We understand the challenges of buying or renting a car and have developed tailored solutions to make the
+          process easier and more convenient.
+        </p>
+        <ul class="feature-list">
+          <li>
+            <div class="feature-card">
+              <div class="card-icon">
+                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+              </div>
+              <span class="span">
+                A wide selection of vehicles for sale and rent.
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="feature-card">
+              <div class="card-icon">
+                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+              </div>
+              <span class="span">
+                Financing options for customers who need help purchasing a car.
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="feature-card">
+              <div class="card-icon">
+                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+              </div>
+              <span class="span">
+                Affordable prices for both sales and rentals.
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="feature-card">
+              <div class="card-icon">
+                <img width='10' height='10' src="icons/check.svg" aria-hidden="true">
+              </div>
+              <span class="span">
+                Explore our wide range of cars for sale or rent.
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+    <section class="section featured-car" id="featured-car">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Featured cars</h2>
+          </div>
+
+          <ul class="featured-car-list">
+            <!-- Contents will be here-->
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- featured car viewer-->
+
+    <div class="login-form-container" id="viewer">
+    <div class="form">
+      <h3>Car Details</h3><a class="close" href="#featured-car" id="close-featured">&times;</a>
+      <!-- Car Viewer-->
+    </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row" id="about-us">
+          <div class="footer-col">
+            <h4>About us</h4>
+            <ul>
+              <li style="color:darkgray">WheelzHub is a leading digital marketplace and solutions provider for the automotive industrythat connects car shoppers with sellers. Launched in 2023 and headquartered in Bahir Dar, Ethiopia.</li> 
+              <div class="footer-col">
+        
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Quick links</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Terms and conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact us</h4>
+            <ul>
+              <li><a href="https://www.google.com/maps/place/Bahir+Dar,+Amhara,+Ethiopia/" target="_blank">Bahir Dar, Amhara, Ethiopia</a></li>
+              <li><a href="tel:+251918764531" target="_blank">+251918764531</a></li>
+              <li><a href="mailto:sales@wheelzhub.com" target="_blank">sales@wheelzhub.com</a></li>
+            </ul>
+          </div>
+          
+          </div>
+      </div>
+   </footer>
+
+
+
+
+   <button id="myBtn"><img src="icons/top.svg" class="cart-remove" width="15" height="25"></button>
+
+
+
+
+
+
+    <script src="js/mainFetch.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/fetch.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
