@@ -170,7 +170,7 @@
   
   .feature-card .card-icon img { --ionicon-stroke-width: 40px; }
   
-  @media (min-width: 575px) {
+  @media (min-width: 360px) {
   
     .container {
       max-width: 540px;
