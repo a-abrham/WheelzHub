@@ -113,14 +113,6 @@ function viewcar(params, image_ur, title, price) {
         <div class="pro-big-pic">
           <img id="imagebox" src="${image_ur}" alt="">
         </div>
-
-        <div class="pro-info">
-          <h2>Made : jshbdjch</h2>
-          <h2>Model : akbd</h2>
-          <h2>Year : kajb</h2>
-          <h2>Price : lajbsld</h2>
-          <h2>Color : lhaslbal</h2>
-        </div>
       </div>
     `
 
