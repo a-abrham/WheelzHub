@@ -179,7 +179,7 @@
     }
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 780px) {
     .container { max-width: 720px; }
   
     .grid-list { grid-template-columns: 1fr 1fr; }
@@ -195,9 +195,12 @@
     .feature-banner { order: 1; }
 
     .service-card {
-      height: 320px;
+      height: 360px;
       padding: 40px;
-   
+  }
+
+  .service .card-text {
+    font-size: 1.6rem;
   }
   }
   
